@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { landingPages } from "../../constant";
 import { PiCaretDoubleRightBold } from "react-icons/pi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Drawer from "react-modern-drawer";
 import { IoMdClose } from "react-icons/io";
 
@@ -13,6 +13,11 @@ const OurServices = ({ length }) => {
   const handleSelectServiceToShowDetail = (service) => {
     setSelectedService(service);
     setIsOpen(true);
+  };
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate("/contact-us");
   };
   return (
     <div className="py-[5rem] bg-[#101010] text-white">
@@ -107,7 +112,7 @@ const OurServices = ({ length }) => {
             })}
           </div>
 
-          <button className="primary-btn w-fit">
+          <button onClick={handleButtonClick} className="primary-btn w-fit">
             {selectedService.ctaButton}
           </button>
         </div>
