@@ -129,12 +129,12 @@ const AboutUs = () => {
                     Innovation with Purpose
                   </h6>
                   <p className="desc mt-2">
-                    Technology without purpose is meaningless. At VKM Techno
-                    Solutions, we believe in leveraging technology to create
-                    meaningful impact—whether it’s streamlining processes,
-                    enhancing customer experiences, or driving growth. Our
-                    solutions are designed to transform businesses, help them
-                    scale, and lead in their industries.
+                    Technology without purpose is meaningless. At WEBSAIN, we
+                    believe in leveraging technology to create meaningful
+                    impact—whether it’s streamlining processes, enhancing
+                    customer experiences, or driving growth. Our solutions are
+                    designed to transform businesses, help them scale, and lead
+                    in their industries.
                   </p>
                 </div>
               </div>
