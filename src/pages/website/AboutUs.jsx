@@ -11,6 +11,7 @@ import {
 import UnlockEfficiency from "../../components/common/UnlockEfficiency";
 import OurServices from "../../components/website/OurServices";
 import Testimonials from "../../components/common/Testimonials";
+import FaqAccordion from "../../components/common/FAQ.jsx";
 
 const AboutUs = () => {
   return (
@@ -192,6 +193,7 @@ const AboutUs = () => {
       </div>
       <OurServices length={3} />
       <Testimonials />
+      <FaqAccordion />
     </>
   );
 };

@@ -576,3 +576,102 @@ export const testimonials = [
     desc: "“We turned to WEBSAIN for an AI solution to automate our customer service, and the results have been outstanding. Their team developed an AI chatbot that handles inquiries seamlessly, improving response times and customer satisfaction.”",
   },
 ];
+
+export const faqData = [
+  {
+    q: "What services does your company provide?",
+    a: "We offer a comprehensive suite of digital solutions, including web development, mobile app development, game design and development, UI/UX design, robotic process automation (RPA), ERP systems, and artificial intelligence (AI) services. Our goal is to support your business with customized digital solutions.",
+  },
+  {
+    q: "What approach do you take for each project?",
+    a: "Our approach is client-centered, starting with a thorough understanding of your business and objectives. From there, we create a clear project roadmap and communicate with you at every step. Quality and timely delivery are at the core of what we do.",
+  },
+  {
+    q: "What industries do you specialize in?",
+    a: "We've worked with a wide range of industries, from healthcare and retail to finance, gaming, and manufacturing. We tailor our services to address the unique challenges and goals of each industry.",
+  },
+  {
+    q: "What types of websites can you build?",
+    a: "We develop a wide variety of websites, including corporate websites, e-commerce stores, and complex web applications. Each project is customized to meet the unique goals of your business.",
+  },
+  {
+    q: "How long does it take to develop a website?",
+    a: "The timeline depends on your project's requirements. A standard business website may take a few weeks, while a large-scale application could take several months. After our initial discussions, we'll give you a detailed timeline.",
+  },
+  {
+    q: "Will the website be optimized for search engines (SEO)?",
+    a: "Yes, we incorporate SEO best practices in every site we develop to help you achieve better search rankings. We focus on structure, speed, and mobile optimization.",
+  },
+  {
+    q: "Can you create apps for both iOS and Android?",
+    a: "We develop native apps for both platforms and offer cross-platform solutions using frameworks like React Native and Flutter, so your app reaches a broader audience with a consistent user experience.",
+  },
+  {
+    q: "How involved will I be in the development process?",
+    a: "You'll be involved at every stage. We provide regular updates and gather feedback during key milestones to ensure the final product meets your vision.",
+  },
+  {
+    q: "What kind of support do you provide after the app is launched?",
+    a: "Post-launch, we offer ongoing support to keep your app updated, address any issues, and add new features as needed to keep your app running smoothly.",
+  },
+  {
+    q: "What platforms do you develop games for?",
+    a: "We build games for various platforms, including mobile, PC, and consoles. Our team is experienced in 2D, 3D, VR, and AR game development across genres like action, strategy, and puzzle.",
+  },
+  {
+    q: "How long does it take to develop a game?",
+    a: "Timelines vary depending on the game's complexity. A small mobile game might take a few months, while a more intricate console game can take a year or longer. We'll provide a clear estimate after discussing your project in detail.",
+  },
+  {
+    q: "What tools and engines do you use for game development?",
+    a: "We work with leading game engines such as Unity and Unreal Engine to create visually stunning, smooth-running games tailored to your concept.",
+  },
+  {
+    q: "What is your process for UI/UX design?",
+    a: "We start with understanding your audience and business needs, then move on to user research, wireframing, and prototyping. Our focus is on creating engaging and intuitive designs that reflect your brand.",
+  },
+  {
+    q: "Can we hire you just for UI/UX design if we already have developers?",
+    a: "We can provide UI/UX design as a standalone service and collaborate with your in-house development team to ensure a seamless design-to-development transition.",
+  },
+  {
+    q: "How do you ensure the designs match our brand?",
+    a: "Our designers begin by thoroughly exploring your brand's identity, values, and style. We then develop a cohesive design that aligns with your branding and appeals to your audience.",
+  },
+  {
+    q: "What is RPA, and how can it benefit my business?",
+    a: "RPA, or Robotic Process Automation, uses software bots to automate repetitive tasks, which helps reduce manual errors, increase efficiency, and free up your team for higher-value work.",
+  },
+  {
+    q: "How do you determine which tasks are suitable for automation?",
+    a: "We assess your workflows and identify tasks that are time-consuming or repetitive. We then design an RPA solution that streamlines these processes without disrupting your operations.",
+  },
+  {
+    q: "Is RPA secure for handling sensitive data?",
+    a: "Yes, we implement strict security measures and data protocols to ensure your information is protected, making RPA both safe and compliant with data standards.",
+  },
+  {
+    q: "What is ERP, and how can it help my business?",
+    a: "ERP (Enterprise Resource Planning) is a system that integrates your key business processes into one unified platform. It can streamline everything from inventory and sales to HR and finance, enhancing efficiency and providing better insight into your operations.",
+  },
+  {
+    q: "Can the ERP system be customized to fit our needs?",
+    a: "Yes, we customize each ERP solution to match your existing workflows and operational needs, ensuring the system enhances rather than disrupts your processes.",
+  },
+  {
+    q: "Do you offer training for ERP users?",
+    a: "We provide hands-on training and ongoing support, so your team is comfortable using the system. We're here to answer questions and assist as your team starts working with the ERP.",
+  },
+  {
+    q: "What AI services do you offer?",
+    a: "Our AI services include machine learning, predictive analytics, computer vision, and natural language processing. We work with you to develop solutions that help your business gain insights, automate processes, and improve decision-making.",
+  },
+  {
+    q: "How does AI integrate with our current systems?",
+    a: "We evaluate your existing systems and data, then design AI models that integrate smoothly, enhancing functionality without disrupting your current setup.",
+  },
+  {
+    q: "What are the benefits of AI for my business?",
+    a: "AI can streamline your processes, enhance customer experiences, and provide insights that help you make better business decisions. We tailor our AI solutions to address your unique needs, maximizing the impact on your business.",
+  },
+];
