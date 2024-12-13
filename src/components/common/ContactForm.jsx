@@ -74,9 +74,9 @@ const ContactForm = () => {
         <div className="gradient-rounded-text-box">Book an Appointment</div>
         <h2 className="heading-2 mt-5">Get in Touch</h2>
         <p className="desc">
-          Let WEBSAIN be the catalyst for your digital transformation. Together,
-          we can build solutions that are as dynamic as your vision, helping
-          your business reach new heights.
+          We’d love to connect with you and discuss how we can support your
+          business growth. Reach out to us today, and let’s talk about bringing
+          your vision to life.
         </p>
         <Link
           to={`tel:${companyDetails.phone}`}

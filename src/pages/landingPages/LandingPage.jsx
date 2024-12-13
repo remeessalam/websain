@@ -43,8 +43,8 @@ export const LandingPage = ({ page }) => {
             </div>
             <h1 className="heading-1 text-white">
               {isWebDevelopment
-                ? "Creating Websites that Grow with Your Business"
-                : "Your Ideas, Perfectly Engineered into Apps"}
+                ? "Build a Website that Makes an Impression"
+                : "Transform Concepts into Engaging Mobile Experiences"}
             </h1>
             <p className="text-white/90 desc">
               We specialize in delivering cutting-edge IT solutions tailored to
@@ -79,13 +79,13 @@ export const LandingPage = ({ page }) => {
             <div className="flex flex-col gap-7">
               <h2 className="heading-2">
                 {isWebDevelopment
-                  ? "Innovative Web Development Solutions for Modern Brands"
-                  : "Building Apps that Elevate Your Business with Our App Development Services."}
+                  ? "Build a Website That Works as Hard as You Do"
+                  : "Transforming Ideas into Impactful Mobile Experiences"}
               </h2>
               <p className="desc">
                 {isWebDevelopment
-                  ? "Our approach to web development combines innovation with technical expertise. We deliver websites that capture your brand’s essence while delivering a seamless experience across all devices, helping you connect with users and drive growth."
-                  : "Whether you’re a startup with a fresh idea or an established enterprise, we provide full-cycle app development services tailored to your unique goals. Our apps are designed to boost engagement, optimize performance, and scale with your business, giving you a competitive edge."}
+                  ? "In today’s world, a strong online presence is essential for any business, and it all starts with your website. At WEBSAIN, we specialize in crafting websites that are not only visually stunning but also designed with purpose. We build responsive, SEO-friendly websites that communicate your brand’s unique voice while delivering an engaging experience for your visitors. Whether you need a simple portfolio site or a robust e-commerce platform, we create solutions that grow with your business."
+                  : "Mobile is where your audience lives, and your app should be designed to meet them there. At WEBSAIN, we develop high-performing apps that bring your ideas to life and keep users coming back. From user-friendly interfaces to seamless functionality, our apps are built for both iOS and Android and tailored to meet your specific needs. Whether you’re a startup with a fresh idea or an established brand looking to expand, we’re here to make your app vision a reality."}
               </p>
             </div>
             <div className="flex justify-center lg:justify-start gap-5 mt-4">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const LandingFooter = () => {
   return (
-    <div className="py-14 bg-gradient-to-r from-primary/30 to-secondary/30">
+    <div className="py-14 bg-gray-600">
       <div className="wrapper text-white">
         <div className="flex md:flex-row flex-col justify-between gap-10">
           <div className="flex flex-col items-center">
@@ -57,7 +57,10 @@ const LandingFooter = () => {
               <h6 className="font-medium mb-1">Contact Us</h6>
               <div className="flex flex-col">
                 <h6 className="text-[.9rem] mb-1">Phone</h6>
-                <Link to={`tel:${companyDetails.phone}`} className="text-white/70 desc text-sm">
+                <Link
+                  to={`tel:${companyDetails.phone}`}
+                  className="text-white/70 desc text-sm"
+                >
                   {companyDetails.phone}
                 </Link>
               </div>
@@ -73,7 +76,7 @@ const LandingFooter = () => {
         <div className="pt-4 mt-7 border-t border-primary w-full">
           <div className="flex justify-center gap-5 w-full">
             <div className="flex gap-5 items-center mt-5">
-            <Link
+              <Link
                 to={companyDetails.facebook}
                 rel="noopener noreferrer"
                 target="_blank"

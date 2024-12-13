@@ -65,7 +65,7 @@ export {
 export const companyDetails = {
   phone: "+91-9446965146",
   whatsapp: "+91-9715265678",
-  email: "support@vkmtechnosolutions.com",
+  email: "test@example.com",
   address: "Plathottathil, Aryankavu P.O, Kollam, Kerala-691309",
   twitter: "",
   linkedin: "",
@@ -138,31 +138,30 @@ export const faqs = [
 export const webDevelopmentServices = [
   {
     id: 1,
-    title: "E-commerence Websites",
+    title: "E-Commerce Solutions",
     icon: require("./assets/images/icons/online-shopping.png"),
     description:
-      "Empowering your online business with tailored ecommerce solutions. Our platforms boost customer engagement, streamline operations, and drive revenue growth. ",
+      "Building seamless, secure shopping experiences that drive sales.",
   },
   {
     id: 2,
-    title: "Social Media Websites",
+    title: "Responsive Development",
     icon: require("./assets/images/icons/socialmedia.png"),
     description:
-      "Get custom social media websites that captivate and engage your audience, driving growth and brand loyalty effortlessly",
+      "Sites optimized to look and perform beautifully on any device.",
   },
   {
     id: 3,
-    title: "Landing Websites",
+    title: "Content Management Systems (CMS)",
     icon: require("./assets/images/icons/landing-page.png"),
-    description:
-      " Creating high-converting landing pages that capture attention and drive action. Tailored designs that showcase your brand’s message and maximize conversions.",
+    description: "Empowering you to manage your content with ease.",
   },
   {
     id: 4,
-    title: "Custom Websites",
+    title: "Custom Web Design",
     icon: require("./assets/images/icons/software-development.png"),
     description:
-      "Delivering tailor-made websites designed to meet your unique business needs. Our solutions blend creativity and functionality for an exceptional online experience.",
+      "We create unique designs that reflect your brand and captivate your audience.",
   },
 ];
 
@@ -170,31 +169,29 @@ export const webDevelopmentServices = [
 export const appDevelopmentServices = [
   {
     id: 1,
-    title: "iOS App Development",
+    title: "iOS & Android Development",
     icon: require("./assets/images/icons/ios-development.png"),
-    description:
-      "Our skilled developers work with both Swift and Objective-C to build robust and efficient apps. We optimize your app for performance, speed, and responsiveness.",
+    description: "Native and cross-platform apps tailored to your audience.",
   },
   {
     id: 2,
-    title: "Android App Development",
+    title: "User-Centric Design",
     icon: require("./assets/images/icons/android-development.png"),
-    description:
-      "We design and develop tailor-made Android apps that align with your vision and business goals.Proficient in both Java and Kotlin, we build robust and efficient apps.",
+    description: "Creating intuitive, engaging experiences that users love",
   },
   {
     id: 3,
-    title: "Flutter App Development",
+    title: "Backend Integrations",
     icon: require("./assets/images/icons/flutter-development.png"),
     description:
-      "Flutter allows you to build apps for both iOS and Android using a single codebase. While Flutter's default web app architecture presents challenges, we can overcome them with smart strategies. ",
+      "Building secure, scalable solutions that grow with your business.",
   },
   {
     id: 4,
-    title: "Hybrid App Development",
+    title: "Ongoing Support",
     icon: require("./assets/images/icons/hybrid-app-development.png"),
     description:
-      "We build feature-rich hybrid apps tailored to your business needs. We create mobile-friendly apps that work seamlessly across iOS and Android devices.",
+      "Ensuring your app continues to perform at its best with updates and maintenance.",
   },
 ];
 

@@ -44,16 +44,16 @@ body {
     @apply font-inter font-light;
   }
   .active-link {
-    @apply text-primary font-semibold;
+    @apply text-green-300 font-semibold;
   }
   .primary-btn {
-    @apply text-white cursor-pointer font-light tracking-wide bg-tertiary hover:bg-tertiary/80 text-sm hover:shadow-secondary hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
+    @apply text-black  cursor-pointer font-light tracking-wide bg-green-300 hover:bg-green-300/80 text-sm hover:shadow-green-200 hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
   }
   .secondary-btn {
-    @apply text-white cursor-pointer font-light tracking-wide bg-black border border-tertiary hover:bg-tertiary text-sm hover:shadow-white hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
+    @apply text-white hover:text-black cursor-pointer font-light tracking-wide bg-black border border-green-300 hover:bg-green-300 text-sm hover:shadow-white hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
   }
   .tertiary-btn {
-    @apply text-white cursor-pointer font-light tracking-wide bg-primary border border-primary hover:bg-black text-sm hover:shadow-primary hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
+    @apply text-white cursor-pointer font-light tracking-wide bg-primary border border-primary hover:bg-black text-sm hover:shadow-green-200 hover:-translate-y-1 shadow-2xl shadow-transparent rounded-[.3rem] px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300;
   }
   .btn-styles {
     @apply hover:shadow-white cursor-pointer tracking-wide hover:-translate-y-1 shadow-2xl shadow-transparent rounded-full px-4 py-3 min-w-[7rem] flex justify-center text-center transition-all duration-300 font-light text-sm;
@@ -65,7 +65,7 @@ body {
     @apply px-4 py-3 rounded-full font-raleway min-w-[10rem] flex justify-center border text-[.9rem] w-fit bg-gradient-to-r from-primary to-secondary font-bold border-primary bg-clip-text text-transparent;
   }
   .link {
-    @apply cursor-pointer hover:text-primary transition-colors duration-200;
+    @apply cursor-pointer hover:text-green-300 transition-colors duration-200;
   }
 }
 
