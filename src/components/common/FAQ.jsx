@@ -17,12 +17,16 @@ const FaqAccordion = () => {
       >
         FAQ
       </div>
-      <h1 className="text-3xl font-bold text-center mb-8 text-white">
+      <h1
+        data-aos="fade-up"
+        className="text-3xl font-bold text-center mb-8 text-white"
+      >
         Frequently Asked Questions
       </h1>
       <div className="space-y-4">
         {faqData.map((faq, index) => (
           <div
+            data-aos="fade-up"
             key={index}
             className="border border-primary rounded-lg overflow-hidden"
           >
