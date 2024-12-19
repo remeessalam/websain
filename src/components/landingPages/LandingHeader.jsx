@@ -84,20 +84,26 @@ const LandingHeader = () => {
             </button>
           </div>
           <div className="flex flex-col gap-6">
-            {options.map(({ name, path, id }) => (
-              <Link
-                onClick={() => setIsOpen(false)}
-                key={id}
-                className="text-3xl text-white font-medium transition-colors duration-300 link"
-                to={path}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                {name}
-              </Link>
-            ))}
+            {options.map(({ name, path, id }) =>
+              name === "Home" ? (
+                <a href="/" className="text-black hover:text-green-300">
+                  {name}
+                </a>
+              ) : (
+                <Link
+                  onClick={() => setIsOpen(false)}
+                  key={id}
+                  className="text-3xl text-white font-medium transition-colors duration-300 link"
+                  to={path}
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={1000}
+                >
+                  {name}
+                </Link>
+              )
+            )}
           </div>
         </Drawer>
         <div
