@@ -65,15 +65,14 @@ export {
 export const companyDetails = {
   phone: "+91-9446965146",
   whatsapp: "+91-9715265678",
-  email: "test@example.com",
+  qatarphone: "+974 71763213",
+  uaephone: "+971 526545136",
+  email: "websain@gmail.com",
   address: "Plathottathil, Aryankavu P.O, Kollam, Kerala-691309",
-  twitter: "",
-  linkedin: "",
-  instagram: "",
   facebook: "",
-  // twitter: "https://x.com/VKMTechnoSoln",
-  // linkedin: "https://www.linkedin.com/company/vkm-techno-solutions",
-  // instagram: "https://www.instagram.com/vkmtechnosolutions/",
+  twitter: "https://x.com/websain01",
+  linkedin: "https://www.linkedin.com/company/websain",
+  instagram: "https://www.instagram.com/websain",
   // facebook: "https://www.facebook.com/profile.php?id=61566531176974",
 };
 
@@ -98,6 +97,11 @@ export const routes = [
     name: "Contact Us",
     path: "/contact-us",
     component: <ContactUs />,
+  },
+  {
+    name: "Blogs",
+    path: "#",
+    // component: <ContactUs />,
   },
 ];
 

@@ -47,20 +47,26 @@ const LandingHeader = () => {
             />
           </Link>
           <div className="lg:flex items-center gap-10 hidden">
-            {options.map((option) => (
-              <Link
-                to={`${option.path}`}
-                className="link text-sm text-black"
-                key={option.path}
-                spy={true}
-                smooth={true}
-                offset={-60}
-                duration={1000}
-                activeClass="active-link"
-              >
-                {option.name}
-              </Link>
-            ))}
+            {options.map((option) =>
+              option.name === "Home" ? (
+                <a href="/" className="text-black hover:text-green-300">
+                  {option.name}
+                </a>
+              ) : (
+                <Link
+                  to={`${option.path}`}
+                  className="link text-sm text-black"
+                  key={option.path}
+                  spy={true}
+                  smooth={true}
+                  offset={-60}
+                  duration={1000}
+                  activeClass="active-link"
+                >
+                  {option.name}
+                </Link>
+              )
+            )}
           </div>
         </div>
         <Drawer

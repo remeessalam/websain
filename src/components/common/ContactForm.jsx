@@ -86,8 +86,32 @@ const ContactForm = () => {
             <FaPhone className="text-2xl scale-x-[-1]" />
           </div>
           <div className="flex flex-col h-full">
-            <p className="font-medium">Call Us</p>
+            <p className="font-medium">INDIA</p>
             <p className="desc">{companyDetails.phone}</p>
+          </div>
+        </Link>
+        <Link
+          to={`tel:${companyDetails.uaephone}`}
+          className="flex items-start gap-3 w-fit mt-5"
+        >
+          <div className="w-[2.5rem] h-[2.5rem] rounded-full bg-primary flex justify-center items-center">
+            <FaPhone className="text-2xl scale-x-[-1]" />
+          </div>
+          <div className="flex flex-col h-full">
+            <p className="font-medium">UAE</p>
+            <p className="desc">{companyDetails.uaephone}</p>
+          </div>
+        </Link>
+        <Link
+          to={`tel:${companyDetails.qatarphone}`}
+          className="flex items-start gap-3 w-fit mt-5"
+        >
+          <div className="w-[2.5rem] h-[2.5rem] rounded-full bg-primary flex justify-center items-center">
+            <FaPhone className="text-2xl scale-x-[-1]" />
+          </div>
+          <div className="flex flex-col h-full">
+            <p className="font-medium">QATAR</p>
+            <p className="desc">{companyDetails.qatarphone}</p>
           </div>
         </Link>
         <Link

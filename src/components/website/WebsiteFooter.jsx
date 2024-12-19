@@ -31,12 +31,30 @@ const WebsiteFooter = () => {
             <div className="flex flex-col gap-2">
               <h6 className="font-medium mb-1">Contact Us</h6>
               <div className="flex flex-col">
-                <h6 className="text-[.9rem] mb-1">Phone</h6>
+                <h6 className="text-[.9rem] mb-1">INDIA</h6>
                 <Link
                   to={`tel:${companyDetails.phone}`}
                   className="text-white/70 desc text-sm"
                 >
                   {companyDetails.phone}
+                </Link>
+              </div>
+              <div className="flex flex-col">
+                <h6 className="text-[.9rem] mb-1">UAE</h6>
+                <Link
+                  to={`tel:${companyDetails.uaephone}`}
+                  className="text-white/70 desc text-sm"
+                >
+                  {companyDetails.uaephone}
+                </Link>
+              </div>
+              <div className="flex flex-col">
+                <h6 className="text-[.9rem] mb-1">QATAR</h6>
+                <Link
+                  to={`tel:${companyDetails.qatarphone}`}
+                  className="text-white/70 desc text-sm"
+                >
+                  {companyDetails.qatarphone}
                 </Link>
               </div>
               <div className="flex flex-col mt-2">
