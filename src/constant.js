@@ -67,11 +67,11 @@ export const companyDetails = {
   whatsapp: "+91-9715265678",
   qatarphone: "+974 71763213",
   uaephone: "+971 526545136",
-  email: "websain@gmail.com",
+  email: "websain01@gmail.com",
   address: "Plathottathil, Aryankavu P.O, Kollam, Kerala-691309",
   facebook: "",
   twitter: "https://x.com/websain01",
-  linkedin: "https://www.linkedin.com/company/websain",
+  linkedin: "https://www.linkedin.com/in/websain-com-b24a20334",
   instagram: "https://www.instagram.com/websain",
   // facebook: "https://www.facebook.com/profile.php?id=61566531176974",
 };
