@@ -63,7 +63,7 @@ export {
 
 // company details
 export const companyDetails = {
-  phone: "+91-9446965146",
+  phone: "+91-86608 13326",
   whatsapp: "+91-9715265678",
   qatarphone: "+974 71763213",
   uaephone: "+971 526545136",
