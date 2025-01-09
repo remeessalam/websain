@@ -20,6 +20,7 @@ import aboutUsGridImg2 from "./assets/images/aboutus-png2.png";
 import aboutUsGridImg3 from "./assets/images/aboutus-png3.png";
 import aboutUsGridImg4 from "./assets/images/aboutus-png4.png";
 import aboutUsGridImg5 from "./assets/images/aboutus-png5.png";
+import blogsbanner from "./assets/images/blogsbanner.jpg";
 import {
   FaRobot,
   FaCogs,
@@ -35,6 +36,7 @@ const Home = lazy(() => import("./pages/website/Home"));
 const Services = lazy(() => import("./pages/website/Services"));
 const ContactUs = lazy(() => import("./pages/website/ContactUs"));
 const AboutUs = lazy(() => import("./pages/website/AboutUs"));
+const Blogs = lazy(() => import("./pages/website/Blogs"));
 
 export {
   logoImg,
@@ -59,6 +61,7 @@ export {
   aboutUsGridImg3,
   aboutUsGridImg4,
   aboutUsGridImg5,
+  blogsbanner,
 };
 
 // company details
@@ -100,8 +103,8 @@ export const routes = [
   },
   {
     name: "Blogs",
-    path: "#",
-    // component: <ContactUs />,
+    path: "/blogs",
+    component: <Blogs />,
   },
 ];
 

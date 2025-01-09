@@ -14,6 +14,13 @@ import SpinnerContextProvider, {
 } from "./components/SpinnerContext";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./components/common/ScrollToTop";
+import BlogPost1 from "./pages/blogPages/Blog1";
+import BlogPost2 from "./pages/blogPages/Blog2";
+import BlogPost3 from "./pages/blogPages/Blog3";
+import BlogPost4 from "./pages/blogPages/Blog4";
+import BlogPost5 from "./pages/blogPages/Blog5";
+import BlogPost6 from "./pages/blogPages/Blog6";
+import BlogPost7 from "./pages/blogPages/Blog7";
 const Thankyou = lazy(() => import("./pages/Thankyou"));
 
 AOS.init({
@@ -43,6 +50,76 @@ export default function App() {
           ))}
 
           <Route path="/thankyou" element={<Thankyou />} />
+          <Route
+            path="/blog/blog1"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost1 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog2"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost2 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog3"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost3 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog4"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost4 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog5"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost5 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog6"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost6 />
+                <WebsiteFooter />
+              </>
+            }
+          />
+          <Route
+            path="/blog/blog7"
+            element={
+              <>
+                <WebsiteHeader />
+                <BlogPost7 />
+                <WebsiteFooter />
+              </>
+            }
+          />
 
           {/* Landing Pages */}
           <Route
