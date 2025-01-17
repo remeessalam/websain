@@ -78,10 +78,18 @@ const Thankyou = () => {
                 <Link>
                   <BsFacebook className="text-xl text-white/90 hover:text-primary transition-all duration-300" />
                 </Link>
-                <Link>
+                <Link
+                  to={companyDetails.twitter}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <BsTwitter className="text-xl text-white/90 hover:text-primary transition-all duration-300" />
                 </Link>
-                <Link>
+                <Link
+                  to={companyDetails.linkedin}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
                   <BsLinkedin className="text-xl text-white/90 hover:text-primary transition-all duration-300" />
                 </Link>
                 <Link>
