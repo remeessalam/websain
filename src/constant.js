@@ -74,7 +74,7 @@ export const companyDetails = {
   address: "Plathottathil, Aryankavu P.O, Kollam, Kerala-691309",
   facebook: "",
   twitter: "https://x.com/websain01",
-  linkedin: "https://www.linkedin.com/in/websain-com-b24a20334",
+  linkedin: "https://www.linkedin.com/company/websain-com/",
   instagram: "https://www.instagram.com/websain",
   // facebook: "https://www.facebook.com/profile.php?id=61566531176974",
 };
