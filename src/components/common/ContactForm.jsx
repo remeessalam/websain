@@ -79,6 +79,7 @@ const ContactForm = () => {
           your vision to life.
         </p>
         <Link
+          onclick="gtag('event', 'phone_call', { 'phone_number': '8660813326' });"
           to={`tel:${companyDetails.phone}`}
           className="flex items-start gap-3 w-fit mt-5"
         >
@@ -87,7 +88,12 @@ const ContactForm = () => {
           </div>
           <div className="flex flex-col h-full">
             <p className="font-medium">INDIA</p>
-            <p className="desc">{companyDetails.phone}</p>
+            <p
+              className="desc"
+              onclick="gtag('event', 'phone_call', { 'phone_number': '8660813326' });"
+            >
+              {companyDetails.phone}
+            </p>
           </div>
         </Link>
         <Link

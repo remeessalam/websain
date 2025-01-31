@@ -57,6 +57,7 @@ const Thankyou = () => {
                 <div className="flex flex-col">
                   <h6 className="text-[.9rem] mb-1">Phone</h6>
                   <Link
+                    onclick="gtag('event', 'phone_call', { 'phone_number': '8660813326' });"
                     to={`tel:${companyDetails.phone}`}
                     className="text-white/70 desc text-sm"
                   >
