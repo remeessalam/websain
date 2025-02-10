@@ -71,7 +71,7 @@ export const companyDetails = {
   qatarphone: "+974 71763213",
   uaephone: "+971 526545136",
   email: "websain01@gmail.com",
-  address: "Plathottathil, Aryankavu P.O, Kollam, Kerala-691309",
+  address: "575/2, 4th Main Rd,BTM Layout, Bengaluru, Karnataka 560029, India",
   facebook: "",
   twitter: "https://x.com/websain01",
   linkedin: "https://www.linkedin.com/company/websain-com/",
